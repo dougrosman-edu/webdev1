@@ -1,0 +1,8 @@
+h1 {
+    color: red;
+}
+
+.img-small {
+    width: 100%;
+    max-width: 300px;
+}
