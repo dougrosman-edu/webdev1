@@ -14,3 +14,5 @@ for(let i = 0; i < NUM_DANCERS; i++) {
    dancer.style.transform = `scale(1.25) translateY(-${randomYPos}%)`;
    danceFloor.append(dancer);
 }
+
+bgAudio.volume = 0.4;
