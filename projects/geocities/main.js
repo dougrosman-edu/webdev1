@@ -15,4 +15,4 @@ for(let i = 0; i < NUM_DANCERS; i++) {
    danceFloor.append(dancer);
 }
 
-bgAudio.volume = 0.4;
+bgAudio.volume = 0.2;
