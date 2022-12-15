@@ -5,7 +5,7 @@
   --ff-m-nova: 'Nova Mono', monospace;
   --ff-m-syne: 'Syne Mono', monospace;
 
-  --fs-700: clamp(2.488rem, 15vw, 7.594rem);
+  --fs-700: clamp(2.488rem, 15vw, 8rem);
   --fs-600: clamp(2.074rem, 12vw, 5.063rem);
   --fs-500: clamp(1.728rem, 9vw, 3.375rem);
   --fs-400: clamp(1.44rem, 6vw, 2.25rem);
