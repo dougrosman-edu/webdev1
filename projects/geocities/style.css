@@ -25,3 +25,19 @@ h6 {font-size: var(--fs-200);}
 body {
   font-family: var(--ff-m-nova);
 }
+
+#danceFloor {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 80%;
+  max-width: 1800px;
+  height: 2px;
+  background-color: orange;
+}
+
+.dancer {
+  position: absolute;
+  transform: translateY(-100%);
+}
