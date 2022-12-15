@@ -49,7 +49,7 @@ h6 {
 body {
   font-family: var(--ff-m-nova);
   text-align: center;
-  
+
   overflow: hidden;
 }
 
@@ -92,6 +92,11 @@ body {
   opacity: 0;
 }
 
+#danceFloorWrapper {
+  opacity: 0;
+  animation: fade-in 15s 4s linear forwards;
+}
+
 
 
 .dancer {
@@ -124,5 +129,11 @@ body {
 @keyframes rotateColor {
   to {
     filter: hue-rotate(360deg);
+  }
+}
+
+@keyframes fade-in {
+  to {
+    opacity: 1;
   }
 }
