@@ -87,21 +87,13 @@ body {
   z-index: -1;
 }
 
-#dancefloor-img {
-  width: 100%;
-  opacity: 0;
-}
-
 #danceFloorWrapper {
   opacity: 0;
   animation: fade-in 15s 4s linear forwards;
 }
 
-
-
 .dancer {
   position: absolute;
-  /* transform: scale(1.25) translateY(-110%); */
 }
 
 @keyframes grow {

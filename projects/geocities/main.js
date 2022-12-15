@@ -7,7 +7,7 @@ for(let i = 0; i < NUM_DANCERS; i++) {
    dancer.setAttribute("alt", `dancing gif #${i}`);
    dancer.classList.add("dancer");
    dancer.style.left = `${(Math.random() * 90)}%`;
-   const randomZIndex = (Math.random() * NUM_DANCERS)
+   const randomZIndex = Math.floor((Math.random() * NUM_DANCERS));
    dancer.style.zIndex = `${randomZIndex}`;
    const randomYPos = (Math.random() * 50) + 100;
    console.log(randomYPos)
